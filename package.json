@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "export": "next export"
+    "start": "next start -p 7000"
   },
   "dependencies": {
     "@capacitor/android": "^2.4.6",
@@ -19,6 +18,8 @@
     "capacitor-dark-mode": "^1.0.5",
     "classnames": "^2.2.6",
     "next": "10.0.3",
+    "next-compose-plugins": "^2.2.1",
+    "next-pwa": "^5.0.6",
     "postcss": "^8.2.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
